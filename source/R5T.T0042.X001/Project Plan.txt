@@ -1,0 +1,4 @@
+R5T.T0042.X001 - IStringOperator basic extensions.
+
+Goals
+
