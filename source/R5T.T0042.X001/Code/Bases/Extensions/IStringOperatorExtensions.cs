@@ -24,5 +24,12 @@ namespace System
             var wasFound = StringHelper.IsFound(index);
             return wasFound;
         }
+
+        public static string ToVerbatimString(this IStringOperator _,
+            string @string)
+        {
+            var output = $"{Characters.At}\"{@string}\"";
+            return output;
+        }
     }
 }
