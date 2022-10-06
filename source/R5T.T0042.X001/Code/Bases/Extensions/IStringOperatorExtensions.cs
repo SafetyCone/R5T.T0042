@@ -170,7 +170,7 @@ namespace System
             char separator,
             params string[] strings)
         {
-            var output = String.Join(separator, strings);
+            var output = String.Join(separator.ToString(), strings);
             return output;
         }
 

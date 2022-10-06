@@ -10,7 +10,7 @@ namespace R5T.T0042
     {
         #region Static
 
-        public static StringOperator Instance { get; } = new();
+        public static IStringOperator Instance { get; } = new StringOperator();
 
         #endregion
     }

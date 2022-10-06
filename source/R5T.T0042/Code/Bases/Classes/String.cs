@@ -10,7 +10,7 @@ namespace R5T.T0042
     {
         #region Static
 
-        public static String Instance { get; } = new();
+        public static IString Instance { get; } = new String();
 
         #endregion
     }

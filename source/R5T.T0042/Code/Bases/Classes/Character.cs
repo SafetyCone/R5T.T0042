@@ -10,7 +10,7 @@ namespace R5T.T0042
     {
         #region Static
         
-        public static Character Instance { get; } = new();
+        public static ICharacter Instance { get; } = new Character();
 
         #endregion
     }
